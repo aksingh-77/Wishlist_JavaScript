@@ -1,0 +1,103 @@
+@import url("https://uilight.netlify.app/main.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0");
+
+:root{
+    --text-color-primary : #f9fafb;
+    --background-color : #111827; 
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.main{
+    padding: 2rem 0;
+    width: 30vw;
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
+.heading-1{
+    color: var(--text-color-primary);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.input{
+    border-radius: 4px;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border: none;
+    width: 25vw;
+    margin-bottom: 0.5rem;
+}
+
+.input:focus{
+    outline: none;
+    cursor: default;
+}
+
+.t-checkbox{
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.btn-primary{
+    font-size: 1.25rem;
+    padding: 0.5rem 0,875rem;
+}
+
+.todo{
+    color: var(--text-color-primary);
+    font-size: 1.5rem;
+}
+
+.todos-container{
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.t-pointer{
+    cursor: pointer;
+}
+
+.todos{
+    padding-bottom: 0.5rem;
+}
+
+
+.todo-text{
+    word-wrap: break-word;
+}
+
+.checked-todo{
+    text-decoration: line-through;
+    color: var(--text-color-primary);
+}
+
+.del-btn{
+    color: var(--text-color-primary);
+
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute-right-0{
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 24
+}
